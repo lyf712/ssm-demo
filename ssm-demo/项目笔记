@@ -1,0 +1,32 @@
+
+
+一、依赖的使用解释
+
+1.httpclient:
+它是一个HTTP通信库，因此它只提供一个通用浏览器应用程序所期望的功能子集，
+最根本的区别是HttpClient中没有用户界面，浏览器需要一个渲染引擎来显示页面，并解释用户输入.
+
+HttpClient的主要功能：
+
+实现了所有 HTTP 的方法（GET、POST、PUT、HEAD、DELETE、HEAD、OPTIONS 等）
+支持 HTTPS 协议
+支持代理服务器（Nginx等）等
+支持自动（跳转）转向
+
+参考博文：https://blog.csdn.net/justry_deng/article/details/81042379
+
+2.oxm
+
+类与XML之间的转换
+https://blog.csdn.net/qq_37151646/article/details/82664846
+
+3.gson
+处理JSON与Java对象的转换
+
+https://www.jianshu.com/p/75a50aa0cad1
+
+4.高效的HTTP客户端
+https://www.jianshu.com/p/da4a806e599b
+
+二、问题解决
+
